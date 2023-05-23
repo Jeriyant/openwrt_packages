@@ -5,7 +5,7 @@ tempat simpan packages openwrt
 opkg update && opkg install wget unzip && wget https://github.com/Jeriyant/openwrt_packages/raw/main/mulimiter.zip && unzip mulimiter.zip && cd mulimiter && sh install
 
 # Install wrtbwmon
-opkg update && opkg install wget
+opkg update && opkg install wget unzip &&
 wget
 unzip
 cd wrtbwmon
